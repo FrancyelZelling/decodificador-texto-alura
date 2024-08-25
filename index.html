@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Desafio Challenger Masters</title>
+  </head>
+  <body>
+    <main>
+      <section class="main__content">
+        <textarea name="text-area" id="text-area" placeholder="Digite seu texto"></textarea>
+          <p class="main__buttons__text">
+            <i class="fa fa-exclamation-circle"></i>
+            apenas letras minúsculas e sem assento.
+          </p>
+        <div class="main__buttons">
+          <button class="main__buttons__primary" onclick="onClickEncrypt()">Criptografar</button>
+          <button class="main__buttons__secondary" onclick="onClickDecrypt()">Descriptografar</button>
+        </div>
+      </section>
+      <aside id="aside">
+        <img id="asideImg" class="aside__img" src="./assets/High quality products 1 1.svg" alt="pessoa usando uma lupa.">
+        <h1 id="asideTitle" class="aside__title" >Nenhuma mensagem encontrada</h1>
+        <p id="asideText" class="aside__text">Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </aside>
+    </main>
+    <footer>Desenvolvido por Francyel Zelling, 2024.</footer>
+  </body>
+  <script src="index.js"></script>
+</html>
